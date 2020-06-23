@@ -1,0 +1,267 @@
+* body {
+    margin: 0px;
+    background-color: #ffff;
+}
+/* Home Page */
+/* Social Panel */
+.social-panel {
+    width: 100%;
+    height: 25px;
+    margin-right: 0px;
+    border-bottom-style: solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-color: #ffdf00;
+    border-width: medium;
+}
+.social-container {
+    width: 225px;
+    height: inherit;
+    float: right;
+    display: block;
+}
+.social-menu {
+    width: auto;
+    height: inherit;
+    display: -webkit-box;
+}
+.social-menu nav {
+    width: 100%;
+
+}
+.social-menu ul {
+    display: -webkit-inline-box;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+
+}
+.social-menu a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+/*-- Logo Panel --*/
+.Logo-panel {
+    display: block;
+    text-align: center;
+}
+.logo-container {
+    display: inline-block;
+}
+.logo-container img {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+
+/*-- Menu Nav --*/
+.Nav-panel {
+    display: block;
+    text-align: center;
+}
+.Nav-container a {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: black;
+}
+.Nav-container a:hover {
+    color: green;
+}
+.Nav-container ul {
+    padding: 0px;
+}
+
+/* Intro Panel */
+.intro-panel {
+    padding-bottom: 5%;
+}
+.title {
+    text-align: center;
+}
+.text-container {
+    width: 50%;
+    margin-right: 0;
+    margin: 0;
+    display: inline-block;
+}
+.text-container p {
+    padding-left: 10%;
+}
+.img-container {
+    width: 50%;
+    float: right;
+    text-align: center;
+    height: 265px;
+}
+.img-container img {
+    height: 265px;
+}
+
+/* Education Panel */
+.education-panel {
+	background-color: gold;
+	height: 416px;
+}
+.content-container {
+	height: 416px;
+	width: 50%;
+	display: inline-block;
+}
+.content-container img {
+	margin-top: 5%;
+	padding-left: 10%;
+}
+.content-container h1 {
+	margin-top: 0;
+	padding-left: 10%;
+}
+.content-container p {
+	padding-left: 10%
+}
+.content-container button {
+	margin-left: 10%;
+	display: inline-block;
+}
+.map-container {
+	height: 416px;
+	width: 50%;
+    float: right;
+    display: inline-flex;
+}
+.map-container iframe {
+	border: none;
+	padding-top: 5.5%;
+	padding-left: 5.5%;
+}
+
+/* Culture Panel */
+.culture-panel {
+	background-color: mediumpurple;
+	height: 416px;
+}
+.cultimg-container {
+	height: 416px;
+	width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.cultimg-container img {
+    height: 350px;
+    padding-top: 7%;
+}
+.cultent-container {
+	width: 50%;
+	float: right;
+	padding-top: 10%;
+}
+.cultent-container h1 {
+	text-align: right;
+	padding-right: 10%;
+}
+.cultent-container p {
+	text-align: right;
+	padding-right: 10%;
+}
+.cultent-container button {
+	float: right;
+	margin-right: 10%;
+}
+
+/* Resource Panel */
+.resources-panel {
+    height: 416px;
+}
+.info-container {
+    text-align: center;
+}
+.img1-container {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+}
+.img1-container img {
+    height: 200px;
+}
+.img2-container {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+}
+.img2-container img {
+    height: 200px;
+}
+.img3-container {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+}
+.img3-container img {
+    height: 200px;
+}
+.button-container {
+    text-align: center;
+}
+
+/* Footer */
+.footer-container {
+    border-top: solid;
+    border-color: gold;
+    padding-top: 1%;
+}
+.ftlogo-container {
+    width: 33%;
+    display: inline-block;
+    text-align: left;
+}
+.ftlogo-container ul {
+    margin: 0;
+    padding-left: 17%;
+}
+.ftmiddle-container {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+.ftmiddle-container p {
+    margin-top: 0;
+}
+.ftmenu-container {
+    width: 33%;
+    display: inline-block;
+    text-align: right;
+}
+.ftmenu-container ul {
+    margin-right: 5%;
+}
+.ftmenu-container a {
+    text-decoration: none;
+    color: black;
+}
+.ftmenu-container a:hover {
+    color: red;
+}
+
+/* Movement page */
+.movementintro-panel {
+    width: 100%;
+}
+.mvemnttext-container {
+    width: 50%;
+    text-align: center;
+    margin-left: 320px;
+}
+
+/* Culture Panel */
+.culture-panel2 {
+    height: min-content;
+    background-image: url("rockin.jpg");
+}
+.culturetext-container {
+    margin: 0;
+    width: 50%;
+    display: inline-block;
+}
